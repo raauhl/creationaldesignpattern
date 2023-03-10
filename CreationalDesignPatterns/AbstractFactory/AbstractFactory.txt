@@ -1,0 +1,14 @@
+﻿The idea is when you have to create a family of products and that family can vary
+across a type. So let's say we have a {Chair, Sofa, Table} now this family can vary
+among style type which can be -> Modern, Archaic, Plastic.
+
+
+So first of we define an interface for each product, so a chair can be ModernChair, ArchaicChar
+Plastic chair and similarly for other prdocuts.
+
+Also now we have a abstractFactory class, which have three methods to get this family.
+Lets say getChair(), getSofa() and getTable() now we let have create three variants
+for this abstract factory of type modern, archain and plastic and then client can use
+based on its config any variant of this.
+
+
