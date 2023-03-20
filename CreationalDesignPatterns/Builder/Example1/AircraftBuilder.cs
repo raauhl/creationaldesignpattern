@@ -3,9 +3,9 @@ namespace CreationalDesignPatterns.Builder.Example1
 {
     public abstract class AircraftBuilder
 	{
-	    public AircraftBuilder()
-		{
-		}
+        public AircraftBuilder()
+        {
+        }
 
         public abstract void BuildCockpit();
 
