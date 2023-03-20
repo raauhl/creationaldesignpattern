@@ -12,11 +12,15 @@
     <None Remove="FactoryMethodPattern\Example1\" />
     <None Remove="AbstractFactory\" />
     <None Remove="AbstractFactory\Example1\" />
+    <None Remove="Builder\" />
+    <None Remove="Builder\Example1\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FactoryMethodPattern\" />
     <Folder Include="FactoryMethodPattern\Example1\" />
     <Folder Include="AbstractFactory\" />
     <Folder Include="AbstractFactory\Example1\" />
+    <Folder Include="Builder\" />
+    <Folder Include="Builder\Example1\" />
   </ItemGroup>
 </Project>

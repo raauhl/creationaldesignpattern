@@ -1,0 +1,16 @@
+﻿This pattern is used when a object has to be created but there might be
+several different ways to construct that object. So let's say object might
+have 7 different parameters in the constructor.
+
+So we might have to add different overloaded parameters or default values etc.
+This is an anti-pattern called telescoping constructor.
+
+The solution is to use a builder object to create the object.
+
+So for example lets say,
+We have a interface aircraft and two variants of it - figher and passenger.
+We know that there are common steps to create an aircarft across these two
+variants of aircraft or a base aircraft in general.
+
+Let's say cockpit, bathrooms, wings, engines.
+
