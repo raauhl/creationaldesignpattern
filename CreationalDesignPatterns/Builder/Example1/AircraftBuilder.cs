@@ -1,13 +1,13 @@
 ﻿using System;
 namespace CreationalDesignPatterns.Builder.Example1
 {
-	public abstract class AircraftBuilder
+    public abstract class AircraftBuilder
 	{
-		public AircraftBuilder()
+	    public AircraftBuilder()
 		{
 		}
 
-		public abstract void BuildCockpit();
+        public abstract void BuildCockpit();
 
         public abstract void BuildWings();
 
@@ -15,9 +15,8 @@ namespace CreationalDesignPatterns.Builder.Example1
 
         public abstract void BuildEngine();
 
-		public abstract IAircraft GetAircraft();
+        public abstract IAircraft GetAircraft();
 
-		public abstract void Assemble();
+        public abstract void Assemble();
     }
 }
-

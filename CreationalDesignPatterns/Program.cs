@@ -10,6 +10,3 @@ Console.WriteLine("Weclome to Creational Design Pattern Tutuorials!");
 //abstractFactoryExample1.Demo();
 
 BuilderExample1.Demo();
-
-
-

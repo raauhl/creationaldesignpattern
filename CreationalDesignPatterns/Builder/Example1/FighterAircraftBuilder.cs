@@ -1,7 +1,7 @@
 ﻿using System;
 namespace CreationalDesignPatterns.Builder.Example1
 {
-	public class FighterAircraftBuilder : AircraftBuilder
+    public class FighterAircraftBuilder : AircraftBuilder
 	{
         IAircraft? aircraft;
 
