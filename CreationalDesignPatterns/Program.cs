@@ -1,5 +1,6 @@
 ﻿using CreationalDesignPatterns.AbstractFactory.Example1;
 using CreationalDesignPatterns.Builder.Example1;
+using CreationalDesignPatterns.SingletonPattern.Example1;
 
 Console.WriteLine("Weclome to Creational Design Pattern Tutuorials!");
 
@@ -9,4 +10,9 @@ Console.WriteLine("Weclome to Creational Design Pattern Tutuorials!");
 //abstractFactoryExample1.SetFactory("window");
 //abstractFactoryExample1.Demo();
 
-BuilderExample1.Demo();
+//BuilderExample1.Demo();
+
+
+
+// Singleton Demo
+SingletonExample1.Demo();

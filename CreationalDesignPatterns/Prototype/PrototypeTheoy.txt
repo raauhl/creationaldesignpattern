@@ -1,0 +1,8 @@
+﻿Let's you copy existing object without making code dependent of their classes.
+
+Generic way is to create a new object and copy all the values of class variables.
+Not always possible since values might be private and in order to create object
+client need to know the needed object's class, creating a dependency.
+
+Use a interface with a single clone method and let the object are needed to be clones
+implement it. 

@@ -1,0 +1,8 @@
+﻿This pattern is used when we need only one instance of a class. The only way to create object
+is by using the class constructor to make a new object. Making the constructor private
+prohibit to create object for that class.
+
+Then we make another public method inside the class say "getInstance()" which returns the
+object for this class. The catch is calling getInstance always returns the same object.
+i.e only a single instance of the class exist in the system and only way to get that instance
+is via getInstance method inside that class.
